@@ -1,0 +1,25 @@
+{
+  "name": "project",
+  "version": "0.1.0",
+  "description": "A template",
+  "author": "Yuri Vyatkin",
+  "dependencies": {
+    "grunt": "0.x.x"
+  },
+  "engine": "node >= 0.10",
+  "devDependencies": {
+    "autoprefixer-core": "^5.2.1",
+    "grunt-contrib-clean": "^0.6.0",
+    "grunt-contrib-coffee": "^0.13.0",
+    "grunt-contrib-connect": "^0.11.2",
+    "grunt-contrib-copy": "^0.8.0",
+    "grunt-contrib-cssmin": "^0.13.0",
+    "grunt-contrib-jade": "^0.15.0",
+    "grunt-contrib-stylus": "^0.22.0",
+    "grunt-contrib-uglify": "^0.9.1",
+    "grunt-contrib-watch": "^0.6.1",
+    "grunt-postcss": "^0.5.5",
+    "grunt-processhtml": "^0.3.8",
+    "grunt-uncss": "^0.4.3"
+  }
+}

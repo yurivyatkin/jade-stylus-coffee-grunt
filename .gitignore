@@ -1,0 +1,8 @@
+Backup
+bower_components
+dist
+node_modules
+test
+tests
+brackets.json
+Thumbs.db

@@ -1,0 +1,28 @@
+doctype html
+html(lang="en")
+  head
+    title jade-test
+    meta(charset='UTF-8')
+    meta(content='', name='description')
+    meta(content='', name='author')
+    meta(content='3 days', name='revisit-after')
+
+    // build:css /styles/app.css
+    link(href='/styles/style.css', rel='stylesheet')
+    // endbuild
+
+  body(class=page)
+    header
+      h1 Ahoi, jade-test!
+
+    block content
+
+    // Footer
+    footer
+
+    // build:js /scripts/app.js
+
+    script(src='/bower_components/jquery/dist/jquery.js')
+
+    script(src='/scripts/script.js')
+    // endbuild
